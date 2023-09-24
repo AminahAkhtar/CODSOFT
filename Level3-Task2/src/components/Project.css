@@ -1,0 +1,131 @@
+/* ul li{
+      list-style: none;
+    }
+.project-details{
+  font-size: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 4rem;
+  margin-left: 2rem;
+  
+}
+.mains{
+  border: 1px solid black;
+  width: 50%;
+  text-align: center;
+  font-size: 1.2rem;
+  
+}
+.mains:first-child{
+  width: 100%;
+  text-align: center;
+  border: none;
+}
+.project-title{
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.progress{
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+.heading{
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+
+} */
+
+/* ProjectDetails.css */
+
+ul li {
+  list-style: none;
+}
+
+.project-details {
+  font-size: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 4rem;
+  margin-left: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 50%;
+  /* transition: 0.5s; */
+  margin-top: 5rem;
+
+
+}
+/* .project-details:hover{
+  transform: scaleX(1.1);
+} */
+
+.mains {
+  width: 50%;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 20px;
+}
+
+.mains:first-child {
+  width: 100%;
+  text-align: center;
+  border: none;
+}
+
+.project-title {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+.progress {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.heading {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.bg-main{
+  /* background: url('../assests/bg.jpg'); */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  background-color: rgb(78, 11, 78);
+  z-index: -1;
+  color: #fff;
+  background-position: center;
+  text-align: center;
+  padding-top: 2rem;
+  height: 100rem;
+}
+.bg-main h2{
+  margin-bottom: 2rem;
+}
+.newproject{
+  font-size: 1rem;
+  color: #fff;
+  text-decoration: none;
+  background-color: purple;
+  width: 50%;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-top: 10rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.newproject:hover{
+   background-color: rgb(248, 79, 248);
+}
